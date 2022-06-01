@@ -1,6 +1,16 @@
 import { RootState } from "../../core/redux/store";
 import { Article } from "./article";
 
-//selectArticle
-//selectArticleTitle
-//selectArticleID
+// export const selectArticles = (state: RootState): Article | undefined => {
+// 	return article;
+// }
+
+// export const selectArticleBody = (state: RootState): string | undefined => {
+// 		return article.body;
+// };
+
+// export const selectArticleTitle = (state: RootState): string | undefined => {
+// 	return article.title;
+// };
+
+

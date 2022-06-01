@@ -8,6 +8,7 @@ import { ArticleComponent } from "./features/articles/components/Article";
 //const App: React.FC = () => {
 export default function App() {
 
+  //refactor to use the connect function 	
   const articles: readonly Article[] = useAppSelector((state) => state.articles.articles); //replaced with react hook instead of plain useSelector
 
   const dispatch = useAppDispatch(); //replaced with react hook instead of plain useDispatch 
